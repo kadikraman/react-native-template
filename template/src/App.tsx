@@ -1,18 +1,11 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { RootNavigator } from './screens/Root.navigator';
 
-export const App = () => {
+export const App: React.FC = () => {
   return (
-    <View style={styles.container}>
-      <Text>Hi there!</Text>
-    </View>
+    <NavigationContainer>
+      <RootNavigator />
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
