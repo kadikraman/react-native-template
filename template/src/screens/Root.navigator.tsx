@@ -4,7 +4,7 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack';
-import { RootStackParamList } from '../types';
+import { RootStackParamList } from '~src/types';
 import { ExampleModal } from './ExampleModal.screen';
 import { BottomTabsNavigator } from './BottomTabs.navigator';
 import { StackNavigationOptions } from '@react-navigation/stack';
