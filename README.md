@@ -12,13 +12,13 @@ npx react-native init MyApp --template https://github.com/kadikraman/react-nativ
 
 ## Why?
 
-This is my take on how to lay out a fresh React Native project.
+I wanted a custom template for starting a new React Native project since I kept doing the same steps (folder layout, styles, types, navigation) over and over again for new project so I decided to condense these into a project template.
 
-Most notably, this includes a basic bottom + stack + modal navigation setup using [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started)
+Probably most notably, this template comes with a basic bottom + stack + modal navigation setup using [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started).
 
 ## What's included
 
-This template builds on the default TypeScript template, with some modifications.
+Building on top of the default React Native TypeScript template, with some modifications.
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started)
@@ -31,4 +31,4 @@ This template builds on the default TypeScript template, with some modifications
   - 2 bottom tabs
   - one full screen modal
   - one stack navigator
-- TypeScript module alias to `@src`
+- TypeScript module alias to `~src`
