@@ -16,6 +16,8 @@ I wanted a custom template for starting a new React Native project since I kept 
 
 Probably most notably, this template comes with a basic bottom + stack + modal navigation setup using [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started).
 
+![navigation](https://user-images.githubusercontent.com/6534400/118393314-6f7ec400-b636-11eb-8c9d-c7ccec924931.png)
+
 ## What's included
 
 Building on top of the default React Native TypeScript template, with some modifications.
