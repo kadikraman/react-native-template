@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
-export const ExampleModal = () => {
+export const ExampleModal: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text>Example Modal!</Text>

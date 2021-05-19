@@ -1,7 +1,7 @@
 import { useNavigation } from '@react-navigation/native';
 import {
   HomeStackParamList,
-  MainTabsParamList,
+  BottomTabsParamList,
   RootStackParamList,
 } from '../types';
 import { BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
@@ -11,7 +11,7 @@ export const useRootNavigation = () =>
   useNavigation<StackNavigationProp<RootStackParamList>>();
 
 export const useMainTabsNavigation = () =>
-  useNavigation<BottomTabNavigationProp<MainTabsParamList>>();
+  useNavigation<BottomTabNavigationProp<BottomTabsParamList>>();
 
 export const useHomeNavigation = () =>
   useNavigation<StackNavigationProp<HomeStackParamList>>();

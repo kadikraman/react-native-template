@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomTabsParamList } from '~src/types';
 import { HomeTabNavigator } from './HomeTab.navigator';
