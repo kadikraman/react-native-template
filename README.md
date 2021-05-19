@@ -4,7 +4,8 @@ To initialise a new React Native project using this template, run:
 
 ```sh
 npx react-native init MyApp --template https://github.com/kadikraman/react-native-template.git
-```  
+```
+
 <div style="display:flex">  
   <img src="https://user-images.githubusercontent.com/6534400/118372223-7828b900-b5a8-11eb-81ab-6ef1948f4c6c.png" width="45%" />
   <img src="https://user-images.githubusercontent.com/6534400/118372260-af976580-b5a8-11eb-941d-a4e90ab5189f.png" width="49%" />
@@ -22,10 +23,8 @@ Probably most notably, this template comes with a basic bottom + stack + modal n
 
 Building on top of the default React Native TypeScript template, with some modifications.
 
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript v4](https://www.typescriptlang.org/)
 - [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started)
-- [Prettier](https://prettier.io/)
-- [Eslint](https://eslint.org/)
 
 ## Notable modifications:
 
