@@ -24,7 +24,7 @@ Probably most notably, this template comes with a basic bottom + stack + modal n
 Building on top of the default React Native TypeScript template, with some modifications.
 
 - [TypeScript v4](https://www.typescriptlang.org/)
-- [React Navigation v6](https://reactnavigation.org/docs/6.x/getting-started)
+- [React Navigation v6](https://reactnavigation.org/docs/getting-started)
 
 ## Notable modifications:
 
